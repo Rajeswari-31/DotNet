@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<results>
+  <modules>
+    <module name="webapplication.tests.dll" path="webapplication.tests.dll" id="1E990F51F95FFE43994B7DA253B5644D01000000" block_coverage="93.55" line_coverage="93.33" blocks_covered="29" blocks_not_covered="2" lines_covered="14" lines_partially_covered="1" lines_not_covered="0">
+      <functions>
+        <function id="8272" token="0x6000001" name="Index()" type_name="HomeControllerTest" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="17" start_column="9" end_line="17" end_column="10" />
+            <range source_id="0" covered="yes" start_line="19" start_column="13" end_line="19" end_column="62" />
+            <range source_id="0" covered="yes" start_line="22" start_column="13" end_line="22" end_column="66" />
+            <range source_id="0" covered="yes" start_line="25" start_column="13" end_line="25" end_column="38" />
+            <range source_id="0" covered="yes" start_line="26" start_column="9" end_line="26" end_column="10" />
+          </ranges>
+        </function>
+        <function id="8312" token="0x6000002" name="About()" type_name="HomeControllerTest" block_coverage="91.30" line_coverage="80.00" blocks_covered="21" blocks_not_covered="2" lines_covered="4" lines_partially_covered="1" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="30" start_column="9" end_line="30" end_column="10" />
+            <range source_id="0" covered="yes" start_line="32" start_column="13" end_line="32" end_column="62" />
+            <range source_id="0" covered="yes" start_line="35" start_column="13" end_line="35" end_column="66" />
+            <range source_id="0" covered="partial" start_line="38" start_column="13" end_line="38" end_column="91" />
+            <range source_id="0" covered="yes" start_line="39" start_column="9" end_line="39" end_column="10" />
+          </ranges>
+        </function>
+        <function id="8544" token="0x6000003" name="Contact()" type_name="HomeControllerTest" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="43" start_column="9" end_line="43" end_column="10" />
+            <range source_id="0" covered="yes" start_line="45" start_column="13" end_line="45" end_column="62" />
+            <range source_id="0" covered="yes" start_line="48" start_column="13" end_line="48" end_column="68" />
+            <range source_id="0" covered="yes" start_line="51" start_column="13" end_line="51" end_column="38" />
+            <range source_id="0" covered="yes" start_line="52" start_column="9" end_line="52" end_column="10" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="0" path="C:\WebApplication\WebApplication.Tests\Controllers\HomeControllerTest.cs">
+        </source_file>
+      </source_files>
+    </module>
+    <module name="webapplication.dll" path="webapplication.dll" id="2DB418EBF23F784FADF7744879B80ADE01000000" block_coverage="45.00" line_coverage="15.00" blocks_covered="27" blocks_not_covered="33" lines_covered="9" lines_partially_covered="2" lines_not_covered="49">
+      <functions>
+        <function id="8724" token="0x6000008" name="RegisterBundles(System.Web.Optimization.BundleCollection)" type_name="BundleConfig" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="16" lines_covered="0" lines_partially_covered="0" lines_not_covered="28">
+          <ranges>
+            <range source_id="0" covered="no" start_line="10" start_column="9" end_line="10" end_column="10" />
+            <range source_id="0" covered="no" start_line="11" start_column="13" end_line="12" end_column="59" />
+            <range source_id="0" covered="no" start_line="14" start_column="13" end_line="15" end_column="56" />
+            <range source_id="0" covered="no" start_line="19" start_column="13" end_line="20" end_column="51" />
+            <range source_id="0" covered="no" start_line="22" start_column="13" end_line="24" end_column="48" />
+            <range source_id="0" covered="no" start_line="26" start_column="13" end_line="28" end_column="46" />
+            <range source_id="0" covered="no" start_line="29" start_column="9" end_line="29" end_column="10" />
+          </ranges>
+        </function>
+        <function id="8934" token="0x600000a" name="RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)" type_name="FilterConfig" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="3" lines_covered="0" lines_partially_covered="0" lines_not_covered="3">
+          <ranges>
+            <range source_id="2" covered="no" start_line="9" start_column="9" end_line="9" end_column="10" />
+            <range source_id="2" covered="no" start_line="10" start_column="13" end_line="10" end_column="53" />
+            <range source_id="2" covered="no" start_line="11" start_column="9" end_line="11" end_column="10" />
+          </ranges>
+        </function>
+        <function id="8949" token="0x600000c" name="RegisterRoutes(System.Web.Routing.RouteCollection)" type_name="RouteConfig" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="4" lines_covered="0" lines_partially_covered="0" lines_not_covered="12">
+          <ranges>
+            <range source_id="4" covered="no" start_line="13" start_column="9" end_line="13" end_column="10" />
+            <range source_id="4" covered="no" start_line="14" start_column="13" end_line="14" end_column="62" />
+            <range source_id="4" covered="no" start_line="16" start_column="13" end_line="20" end_column="15" />
+            <range source_id="4" covered="no" start_line="21" start_column="9" end_line="21" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9001" token="0x600000e" name="Application_Start()" type_name="MvcApplication" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="8" lines_covered="0" lines_partially_covered="0" lines_not_covered="6">
+          <ranges>
+            <range source_id="3" covered="no" start_line="14" start_column="9" end_line="14" end_column="10" />
+            <range source_id="3" covered="no" start_line="15" start_column="13" end_line="15" end_column="49" />
+            <range source_id="3" covered="no" start_line="16" start_column="13" end_line="16" end_column="71" />
+            <range source_id="3" covered="no" start_line="17" start_column="13" end_line="17" end_column="59" />
+            <range source_id="3" covered="no" start_line="18" start_column="13" end_line="18" end_column="63" />
+            <range source_id="3" covered="no" start_line="19" start_column="9" end_line="19" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9052" token="0x6000010" name="Index()" type_name="HomeController" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" covered="yes" start_line="12" start_column="9" end_line="12" end_column="10" />
+            <range source_id="1" covered="yes" start_line="13" start_column="13" end_line="13" end_column="27" />
+            <range source_id="1" covered="yes" start_line="14" start_column="9" end_line="14" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9076" token="0x6000011" name="About()" type_name="HomeController" block_coverage="92.31" line_coverage="75.00" blocks_covered="12" blocks_not_covered="1" lines_covered="3" lines_partially_covered="1" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" covered="yes" start_line="17" start_column="9" end_line="17" end_column="10" />
+            <range source_id="1" covered="partial" start_line="18" start_column="13" end_line="18" end_column="68" />
+            <range source_id="1" covered="yes" start_line="20" start_column="13" end_line="20" end_column="27" />
+            <range source_id="1" covered="yes" start_line="21" start_column="9" end_line="21" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9200" token="0x6000012" name="Contact()" type_name="HomeController" block_coverage="92.31" line_coverage="75.00" blocks_covered="12" blocks_not_covered="1" lines_covered="3" lines_partially_covered="1" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" covered="yes" start_line="24" start_column="9" end_line="24" end_column="10" />
+            <range source_id="1" covered="partial" start_line="25" start_column="13" end_line="25" end_column="52" />
+            <range source_id="1" covered="yes" start_line="27" start_column="13" end_line="27" end_column="27" />
+            <range source_id="1" covered="yes" start_line="28" start_column="9" end_line="28" end_column="10" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="0" path="C:\WebApplication\WebApplication\App_Start\BundleConfig.cs">
+        </source_file>
+        <source_file id="1" path="C:\WebApplication\WebApplication\Controllers\HomeController.cs">
+        </source_file>
+        <source_file id="2" path="C:\WebApplication\WebApplication\App_Start\FilterConfig.cs">
+        </source_file>
+        <source_file id="3" path="C:\WebApplication\WebApplication\Global.asax.cs">
+        </source_file>
+        <source_file id="4" path="C:\WebApplication\WebApplication\App_Start\RouteConfig.cs">
+        </source_file>
+      </source_files>
+    </module>
+  </modules>
+</results>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="11e3691e-fb60-40f1-b63b-18c04fdc8aa8" name="rajeswari.k.murthy@CDC2-D-441SR4F 2017-06-28 15:02:44" runUser="DIR\rajeswari.k.murthy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="75aebee0-fca3-4e82-b8ef-0b3d57f18bfd">
+    <Deployment userDeploymentRoot="C:\source_code\WebApplication\WebApplication.Tests\bin\Debug" useDefaultDeploymentRoot="false" runDeploymentRoot="rajeswari.k.murthy_CDC2-D-441SR4F 2017-06-28 15_02_44" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-06-28T15:02:44.7556438+05:30" queuing="2017-06-28T15:02:47.3330237+05:30" start="2017-06-28T15:02:47.4560350+05:30" finish="2017-06-28T15:02:49.4141815+05:30" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CDC2-D-441SR4F" outcome="Warning" timestamp="2017-06-28T15:02:45.5808919+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'c:\source_code\webapplication\webapplication.tests\bin\debug\webapplication.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Contact" storage="c:\source_code\webapplication\webapplication.tests\bin\debug\webapplication.tests.dll" id="8be8550d-166a-b9ab-97c2-388bdb30cfe5">
+      <Execution id="33c6dcb2-8715-4e85-be32-d5b01ef6dbf3" />
+      <TestMethod codeBase="C:/source_code/WebApplication/WebApplication.Tests/bin/Debug/WebApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication.Tests.Controllers.HomeControllerTest, WebApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\source_code\webapplication\webapplication.tests\bin\debug\webapplication.tests.dll" id="6844c522-3ded-5453-8f1f-4a51db931f64">
+      <Execution id="62790bff-8d71-41d5-84ef-752bfc68737a" />
+      <TestMethod codeBase="C:/source_code/WebApplication/WebApplication.Tests/bin/Debug/WebApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication.Tests.Controllers.HomeControllerTest, WebApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\source_code\webapplication\webapplication.tests\bin\debug\webapplication.tests.dll" id="f4c0906e-6da3-c1eb-cdf3-535ed800040a">
+      <Execution id="783eb396-bde3-4ec7-9f8b-587a8acf19ac" />
+      <TestMethod codeBase="C:/source_code/WebApplication/WebApplication.Tests/bin/Debug/WebApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication.Tests.Controllers.HomeControllerTest, WebApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6844c522-3ded-5453-8f1f-4a51db931f64" executionId="62790bff-8d71-41d5-84ef-752bfc68737a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8be8550d-166a-b9ab-97c2-388bdb30cfe5" executionId="33c6dcb2-8715-4e85-be32-d5b01ef6dbf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4c0906e-6da3-c1eb-cdf3-535ed800040a" executionId="783eb396-bde3-4ec7-9f8b-587a8acf19ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62790bff-8d71-41d5-84ef-752bfc68737a" testId="6844c522-3ded-5453-8f1f-4a51db931f64" testName="About" computerName="CDC2-D-441SR4F" duration="00:00:00.2162612" startTime="2017-06-28T15:02:47.5450395+05:30" endTime="2017-06-28T15:02:49.3191759+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62790bff-8d71-41d5-84ef-752bfc68737a">
+    </UnitTestResult>
+    <UnitTestResult executionId="33c6dcb2-8715-4e85-be32-d5b01ef6dbf3" testId="8be8550d-166a-b9ab-97c2-388bdb30cfe5" testName="Contact" computerName="CDC2-D-441SR4F" duration="00:00:00.0045664" startTime="2017-06-28T15:02:49.3261764+05:30" endTime="2017-06-28T15:02:49.3341770+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33c6dcb2-8715-4e85-be32-d5b01ef6dbf3">
+    </UnitTestResult>
+    <UnitTestResult executionId="783eb396-bde3-4ec7-9f8b-587a8acf19ac" testId="f4c0906e-6da3-c1eb-cdf3-535ed800040a" testName="Index" computerName="CDC2-D-441SR4F" duration="00:00:00.0027505" startTime="2017-06-28T15:02:49.3381767+05:30" endTime="2017-06-28T15:02:49.3611778+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="783eb396-bde3-4ec7-9f8b-587a8acf19ac">
+    </UnitTestResult>
+  </Results>
+</TestRun>

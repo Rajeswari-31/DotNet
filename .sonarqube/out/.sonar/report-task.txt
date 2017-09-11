@@ -1,0 +1,5 @@
+projectKey=.NET
+serverUrl=http://localhost:81
+dashboardUrl=http://localhost:81/dashboard/index/.NET
+ceTaskId=AV4pC8nWLP_I9qnKmShu
+ceTaskUrl=http://localhost:81/api/ce/task?id=AV4pC8nWLP_I9qnKmShu
